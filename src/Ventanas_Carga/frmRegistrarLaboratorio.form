@@ -1,4 +1,4 @@
-<?xml version="1.1" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
   <Properties>
@@ -29,17 +29,19 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="jPanel2" alignment="1" pref="723" max="32767" attributes="0"/>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="260" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="272" max="-2" attributes="0"/>
                       <Component id="btnGuardar" min="-2" pref="100" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="btnCancelar" min="-2" pref="100" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jPanel4" alignment="1" max="32767" attributes="0"/>
-                          <Component id="jPanel1" alignment="0" pref="713" max="32767" attributes="1"/>
-                      </Group>
+                      <Component id="jPanel4" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel1" pref="713" max="32767" attributes="1"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -51,16 +53,16 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jPanel2" min="-2" pref="38" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="jPanel1" min="-2" pref="310" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="btnCancelar" min="-2" pref="30" max="-2" attributes="0"/>
-                  <Component id="btnGuardar" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnGuardar" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="btnCancelar" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -145,7 +147,6 @@
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
             <TitledBorder justification="2" title="Datos Laboratorio">
               <Font PropertyName="font" name="Arial" size="14" style="0"/>
-              <Color PropertyName="color" blue="0" green="0" red="0" type="rgb"/>
             </TitledBorder>
           </Border>
         </Property>
@@ -274,7 +275,7 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="370" y="110" width="100" height="20"/>
+              <AbsoluteConstraints x="370" y="110" width="110" height="20"/>
             </Constraint>
           </Constraints>
         </Component>

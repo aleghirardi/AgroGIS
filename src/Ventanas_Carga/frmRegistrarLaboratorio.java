@@ -72,7 +72,7 @@ gestorRegistroLaboratorio gLaboratorio = new gestorRegistroLaboratorio();
     Toolkit kit = Toolkit.getDefaultToolkit();
     Dimension tamanioPantalla = kit.getScreenSize();
     int ancho = 750;
-    int alto = 580;
+    int alto = 570;
     int posX = (int) ((tamanioPantalla.width - ancho) / 2);
 //    int posY = (int) ((tamanioPantalla.height - alto) / 2);
     this.setSize(ancho, alto);
@@ -169,21 +169,21 @@ gestorRegistroLaboratorio gLaboratorio = new gestorRegistroLaboratorio();
 
         jPanel2.setLayout(null);
 
-        jLabel11.setFont(new java.awt.Font("Arial", 1, 12));
+        jLabel11.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel11.setText("Fecha");
         jPanel2.add(jLabel11);
         jLabel11.setBounds(30, 10, 50, 20);
         jPanel2.add(txtFecha);
         txtFecha.setBounds(70, 10, 102, 20);
 
-        jLabel12.setFont(new java.awt.Font("Arial", 1, 12));
+        jLabel12.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel12.setText("Hora");
         jPanel2.add(jLabel12);
         jLabel12.setBounds(220, 10, 40, 20);
         jPanel2.add(txtHora);
         txtHora.setBounds(250, 10, 70, 20);
 
-        jLabel13.setFont(new java.awt.Font("Arial", 1, 12));
+        jLabel13.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel13.setText("Usuario");
         jPanel2.add(jLabel13);
         jLabel13.setBounds(570, 10, 50, 15);
@@ -192,10 +192,10 @@ gestorRegistroLaboratorio gLaboratorio = new gestorRegistroLaboratorio();
         jPanel2.add(jLabel14);
         jLabel14.setBounds(630, 0, 30, 30);
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos Laboratorio", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos Laboratorio", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14))); // NOI18N
         jPanel1.setLayout(null);
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel1.setText("Especialidad");
         jPanel1.add(jLabel1);
         jLabel1.setBounds(370, 30, 100, 20);
@@ -219,7 +219,7 @@ gestorRegistroLaboratorio gLaboratorio = new gestorRegistroLaboratorio();
         jPanel1.add(txtCalle);
         txtCalle.setBounds(90, 70, 250, 20);
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel3.setText("Calle");
         jPanel1.add(jLabel3);
         jLabel3.setBounds(50, 70, 50, 20);
@@ -228,12 +228,12 @@ gestorRegistroLaboratorio gLaboratorio = new gestorRegistroLaboratorio();
         jPanel1.add(txtNum);
         txtNum.setBounds(450, 70, 50, 20);
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel4.setText("Numero");
         jPanel1.add(jLabel4);
         jLabel4.setBounds(400, 70, 50, 20);
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel6.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel6.setText("Provincia");
         jPanel1.add(jLabel6);
         jLabel6.setBounds(30, 110, 90, 20);
@@ -241,10 +241,10 @@ gestorRegistroLaboratorio gLaboratorio = new gestorRegistroLaboratorio();
         jPanel1.add(cmbProvincia);
         cmbProvincia.setBounds(90, 110, 200, 20);
 
-        jLabel7.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel7.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel7.setText("Departamento");
         jPanel1.add(jLabel7);
-        jLabel7.setBounds(370, 110, 100, 20);
+        jLabel7.setBounds(370, 110, 110, 20);
 
         jPanel1.add(cmbDepartamento);
         cmbDepartamento.setBounds(450, 110, 190, 20);
@@ -252,7 +252,7 @@ gestorRegistroLaboratorio gLaboratorio = new gestorRegistroLaboratorio();
         jPanel1.add(cmbLocalidad);
         cmbLocalidad.setBounds(90, 150, 200, 20);
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel5.setText("Localidad");
         jPanel1.add(jLabel5);
         jLabel5.setBounds(30, 150, 80, 20);
@@ -260,7 +260,7 @@ gestorRegistroLaboratorio gLaboratorio = new gestorRegistroLaboratorio();
         jPanel1.add(cmbBarrio);
         cmbBarrio.setBounds(450, 150, 190, 20);
 
-        jLabel8.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel8.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel8.setText("Barrio");
         jPanel1.add(jLabel8);
         jLabel8.setBounds(410, 150, 70, 20);
@@ -268,12 +268,12 @@ gestorRegistroLaboratorio gLaboratorio = new gestorRegistroLaboratorio();
         jPanel1.add(cmbTipoTel);
         cmbTipoTel.setBounds(90, 190, 120, 20);
 
-        jLabel9.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel9.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel9.setText("Tipo Telefono");
         jPanel1.add(jLabel9);
         jLabel9.setBounds(10, 190, 90, 20);
 
-        jLabel10.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel10.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel10.setText("Telefono");
         jPanel1.add(jLabel10);
         jLabel10.setBounds(400, 190, 70, 20);
@@ -288,12 +288,12 @@ gestorRegistroLaboratorio gLaboratorio = new gestorRegistroLaboratorio();
         jPanel1.add(txtEmail);
         txtEmail.setBounds(90, 230, 240, 20);
 
-        jLabel17.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel17.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel17.setText("E-Mail");
         jPanel1.add(jLabel17);
         jLabel17.setBounds(50, 230, 70, 20);
 
-        btnAgregarLab.setFont(new java.awt.Font("Arial", 0, 11));
+        btnAgregarLab.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         btnAgregarLab.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Agregar.png"))); // NOI18N
         btnAgregarLab.setText("Agregar");
 
@@ -317,7 +317,7 @@ gestorRegistroLaboratorio gLaboratorio = new gestorRegistroLaboratorio();
         jPanel1.add(jPanel3);
         jPanel3.setBounds(290, 260, 120, 40);
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel2.setText("Nombre");
         jPanel1.add(jLabel2);
         jLabel2.setBounds(30, 30, 100, 20);
@@ -424,7 +424,7 @@ gestorRegistroLaboratorio gLaboratorio = new gestorRegistroLaboratorio();
                 .addContainerGap(12, Short.MAX_VALUE))
         );
 
-        btnGuardar.setFont(new java.awt.Font("Arial", 0, 11));
+        btnGuardar.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Guardar.png"))); // NOI18N
         btnGuardar.setText("Guardar");
         btnGuardar.addActionListener(new java.awt.event.ActionListener() {
@@ -433,7 +433,7 @@ gestorRegistroLaboratorio gLaboratorio = new gestorRegistroLaboratorio();
             }
         });
 
-        btnCancelar.setFont(new java.awt.Font("Arial", 0, 11));
+        btnCancelar.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         btnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Cancelar.png"))); // NOI18N
         btnCancelar.setText("Cancelar");
         btnCancelar.addActionListener(new java.awt.event.ActionListener() {
@@ -450,15 +450,17 @@ gestorRegistroLaboratorio gLaboratorio = new gestorRegistroLaboratorio();
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 723, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(260, 260, 260)
+                        .addGap(272, 272, 272)
                         .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 713, Short.MAX_VALUE))))
+                        .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 713, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -466,15 +468,15 @@ gestorRegistroLaboratorio gLaboratorio = new gestorRegistroLaboratorio();
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 310, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(14, 14, 14))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(19, 19, 19))
         );
 
         pack();
