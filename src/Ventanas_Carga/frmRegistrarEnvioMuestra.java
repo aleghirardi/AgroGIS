@@ -73,7 +73,6 @@ public class frmRegistrarEnvioMuestra extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jSeparator1 = new javax.swing.JSeparator();
         jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -81,22 +80,6 @@ public class frmRegistrarEnvioMuestra extends javax.swing.JInternalFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel48 = new javax.swing.JLabel();
         txtHora = new javax.swing.JTextField();
-        jSeparator2 = new javax.swing.JSeparator();
-        jLabel12 = new javax.swing.JLabel();
-        ckFecha = new javax.swing.JCheckBox();
-        ckProductor = new javax.swing.JCheckBox();
-        ckNumMuestra = new javax.swing.JCheckBox();
-        ckTodos = new javax.swing.JCheckBox();
-        jPanel6 = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        calendarioHMuestra = new datechooser.beans.DateChooserCombo();
-        calendarioDMuestra = new datechooser.beans.DateChooserCombo();
-        jPanel7 = new javax.swing.JPanel();
-        cmbProductor = new javax.swing.JComboBox();
-        jPanel8 = new javax.swing.JPanel();
-        txtNumMuestra = new javax.swing.JTextField();
-        btnBuscarMuestra = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblMuestra = new javax.swing.JTable();
         btnAceptarMuestra = new javax.swing.JButton();
@@ -124,6 +107,22 @@ public class frmRegistrarEnvioMuestra extends javax.swing.JInternalFrame {
         btnNuevo = new javax.swing.JButton();
         btnCancelar = new javax.swing.JButton();
         btnAgregar = new javax.swing.JButton();
+        jPanel2 = new javax.swing.JPanel();
+        ckFecha = new javax.swing.JCheckBox();
+        ckProductor = new javax.swing.JCheckBox();
+        ckNumMuestra = new javax.swing.JCheckBox();
+        ckTodos = new javax.swing.JCheckBox();
+        btnBuscarMuestra = new javax.swing.JButton();
+        jPanel10 = new javax.swing.JPanel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        calendarioHMuestra = new datechooser.beans.DateChooserCombo();
+        calendarioDMuestra = new datechooser.beans.DateChooserCombo();
+        jPanel13 = new javax.swing.JPanel();
+        cmbProductor = new javax.swing.JComboBox();
+        jPanel12 = new javax.swing.JPanel();
+        jLabel16 = new javax.swing.JLabel();
+        txtNumMuestra = new javax.swing.JTextField();
 
         setIconifiable(true);
         setMaximizable(true);
@@ -154,85 +153,6 @@ public class frmRegistrarEnvioMuestra extends javax.swing.JInternalFrame {
         jLabel48.setBounds(820, 0, 32, 32);
         jPanel3.add(txtHora);
         txtHora.setBounds(210, 10, 70, 20);
-
-        jLabel12.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel12.setText("Buscar Muestras por");
-
-        ckFecha.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        ckFecha.setText("Fecha");
-
-        ckProductor.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        ckProductor.setText("Productor");
-        ckProductor.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ckProductorActionPerformed(evt);
-            }
-        });
-
-        ckNumMuestra.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        ckNumMuestra.setText("Nº Muestra");
-
-        ckTodos.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        ckTodos.setText("Todos");
-
-        jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Fecha", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 12))); // NOI18N
-        jPanel6.setLayout(null);
-
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        jLabel4.setText("Desde");
-        jPanel6.add(jLabel4);
-        jLabel4.setBounds(10, 30, 60, 20);
-
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        jLabel5.setText("Hasta");
-        jPanel6.add(jLabel5);
-        jLabel5.setBounds(170, 30, 60, 20);
-        jPanel6.add(calendarioHMuestra);
-        calendarioHMuestra.setBounds(210, 30, 90, 20);
-        jPanel6.add(calendarioDMuestra);
-        calendarioDMuestra.setBounds(50, 30, 90, 20);
-
-        jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Productor", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 12))); // NOI18N
-
-        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
-        jPanel7.setLayout(jPanel7Layout);
-        jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel7Layout.createSequentialGroup()
-                .addGap(33, 33, 33)
-                .addComponent(cmbProductor, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(24, Short.MAX_VALUE))
-        );
-        jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel7Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(cmbProductor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Número Muestra", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 12))); // NOI18N
-
-        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
-        jPanel8.setLayout(jPanel8Layout);
-        jPanel8Layout.setHorizontalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addGap(76, 76, 76)
-                .addComponent(txtNumMuestra, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(87, Short.MAX_VALUE))
-        );
-        jPanel8Layout.setVerticalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(txtNumMuestra, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(19, Short.MAX_VALUE))
-        );
-
-        btnBuscarMuestra.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        btnBuscarMuestra.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/lupa.png"))); // NOI18N
-        btnBuscarMuestra.setText("Buscar");
 
         tblMuestra.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -271,7 +191,7 @@ public class frmRegistrarEnvioMuestra extends javax.swing.JInternalFrame {
         jLabel10.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel10.setText("Nº Muestra");
         jPanel1.add(jLabel10);
-        jLabel10.setBounds(690, 10, 100, 20);
+        jLabel10.setBounds(670, 10, 100, 20);
 
         jLabel11.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel11.setText("Fecha Envío");
@@ -281,7 +201,7 @@ public class frmRegistrarEnvioMuestra extends javax.swing.JInternalFrame {
         jLabel13.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel13.setText("Cereal");
         jPanel1.add(jLabel13);
-        jLabel13.setBounds(710, 40, 70, 20);
+        jLabel13.setBounds(690, 40, 70, 20);
 
         jLabel14.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel14.setText("Responsable");
@@ -293,7 +213,7 @@ public class frmRegistrarEnvioMuestra extends javax.swing.JInternalFrame {
         jPanel1.add(cmbEstablecimiento);
         cmbEstablecimiento.setBounds(420, 10, 210, 20);
         jPanel1.add(txtMuestra);
-        txtMuestra.setBounds(760, 10, 100, 20);
+        txtMuestra.setBounds(740, 10, 100, 20);
 
         jPanel1.add(cmbEspecialidad);
         cmbEspecialidad.setBounds(90, 40, 200, 20);
@@ -302,7 +222,7 @@ public class frmRegistrarEnvioMuestra extends javax.swing.JInternalFrame {
         cmbLaboratorio.setBounds(420, 40, 210, 20);
 
         jPanel1.add(cmbCereal);
-        cmbCereal.setBounds(760, 40, 100, 20);
+        cmbCereal.setBounds(740, 40, 100, 20);
         jPanel1.add(calendarioEnvio);
         calendarioEnvio.setBounds(90, 70, 90, 20);
         jPanel1.add(txtResponsable);
@@ -336,6 +256,77 @@ public class frmRegistrarEnvioMuestra extends javax.swing.JInternalFrame {
         btnAgregar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Agregar.png"))); // NOI18N
         btnAgregar.setText("Agregar");
 
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Buscar Muestras por", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14))); // NOI18N
+        jPanel2.setLayout(null);
+
+        ckFecha.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        ckFecha.setText("Fecha");
+        jPanel2.add(ckFecha);
+        ckFecha.setBounds(80, 20, 80, 23);
+
+        ckProductor.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        ckProductor.setText("Productor");
+        jPanel2.add(ckProductor);
+        ckProductor.setBounds(290, 20, 110, 23);
+
+        ckNumMuestra.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        ckNumMuestra.setText("Nº Muestra");
+        jPanel2.add(ckNumMuestra);
+        ckNumMuestra.setBounds(510, 20, 100, 23);
+
+        ckTodos.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        ckTodos.setText("Todos");
+        jPanel2.add(ckTodos);
+        ckTodos.setBounds(720, 20, 80, 23);
+
+        btnBuscarMuestra.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        btnBuscarMuestra.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/lupa.png"))); // NOI18N
+        btnBuscarMuestra.setText("Buscar");
+        jPanel2.add(btnBuscarMuestra);
+        btnBuscarMuestra.setBounds(380, 130, 104, 30);
+
+        jPanel10.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Fecha", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 12))); // NOI18N
+        jPanel10.setLayout(null);
+
+        jLabel12.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel12.setText("Desde");
+        jPanel10.add(jLabel12);
+        jLabel12.setBounds(40, 20, 60, 20);
+
+        jLabel15.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel15.setText("Hasta");
+        jPanel10.add(jLabel15);
+        jLabel15.setBounds(40, 50, 60, 20);
+        jPanel10.add(calendarioHMuestra);
+        calendarioHMuestra.setBounds(80, 50, 90, 20);
+        jPanel10.add(calendarioDMuestra);
+        calendarioDMuestra.setBounds(80, 20, 90, 20);
+
+        jPanel2.add(jPanel10);
+        jPanel10.setBounds(40, 40, 230, 90);
+
+        jPanel13.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Productor", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 12))); // NOI18N
+        jPanel13.setLayout(null);
+
+        jPanel13.add(cmbProductor);
+        cmbProductor.setBounds(40, 40, 200, 20);
+
+        jPanel2.add(jPanel13);
+        jPanel13.setBounds(300, 40, 280, 90);
+
+        jPanel12.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Nº Muestra", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 12))); // NOI18N
+        jPanel12.setLayout(null);
+
+        jLabel16.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel16.setText("Nº");
+        jPanel12.add(jLabel16);
+        jLabel16.setBounds(30, 40, 50, 20);
+        jPanel12.add(txtNumMuestra);
+        txtNumMuestra.setBounds(50, 40, 120, 20);
+
+        jPanel2.add(jPanel12);
+        jPanel12.setBounds(610, 40, 220, 90);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -344,33 +335,8 @@ public class frmRegistrarEnvioMuestra extends javax.swing.JInternalFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator1)
-                            .addComponent(jSeparator2)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addComponent(jLabel12)
-                                .addGap(97, 97, 97)
-                                .addComponent(ckFecha)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(ckProductor)
-                                .addGap(102, 102, 102)
-                                .addComponent(ckNumMuestra)
-                                .addGap(101, 101, 101)
-                                .addComponent(ckTodos)
-                                .addGap(42, 42, 42))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 0, Short.MAX_VALUE)))
-                        .addContainerGap())
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 869, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 877, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(64, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -381,23 +347,26 @@ public class frmRegistrarEnvioMuestra extends javax.swing.JInternalFrame {
                                 .addGap(22, 22, 22))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addComponent(btnGuardar)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(btnNuevo)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(btnCancelar)
-                                .addGap(321, 321, 321))))))
+                                .addGap(312, 312, 312))))))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(392, 392, 392)
-                        .addComponent(btnBuscarMuestra, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(38, 38, 38)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 790, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(btnEliminarEnvio))
+                            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(40, 40, 40)
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 790, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(btnEliminarEnvio))
+                        .addContainerGap()
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 877, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(396, 396, 396)
+                        .addGap(381, 381, 381)
                         .addComponent(btnAgregar, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(0, 0, Short.MAX_VALUE))
         );
@@ -406,36 +375,20 @@ public class frmRegistrarEnvioMuestra extends javax.swing.JInternalFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(5, 5, 5)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(4, 4, 4)
-                .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel12)
-                    .addComponent(ckFecha)
-                    .addComponent(ckProductor)
-                    .addComponent(ckNumMuestra)
-                    .addComponent(ckTodos))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 5, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(1, 1, 1)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(7, 7, 7)
-                        .addComponent(btnBuscarMuestra, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(51, 51, 51)
+                        .addComponent(btnAceptarMuestra, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnAceptarMuestra, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(40, 40, 40)))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(1, 1, 1)
+                        .addGap(6, 6, 6)
                         .addComponent(btnAgregar, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -445,17 +398,13 @@ public class frmRegistrarEnvioMuestra extends javax.swing.JInternalFrame {
                             .addComponent(btnNuevo, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(79, 79, 79)
+                        .addGap(86, 86, 86)
                         .addComponent(btnEliminarEnvio, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(23, Short.MAX_VALUE))
+                .addContainerGap(22, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void ckProductorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ckProductorActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ckProductorActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAceptarMuestra;
@@ -483,24 +432,23 @@ public class frmRegistrarEnvioMuestra extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel48;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JSeparator jSeparator1;
-    private javax.swing.JSeparator jSeparator2;
     private javax.swing.JTable tblEnvios;
     private javax.swing.JTable tblMuestra;
     private javax.swing.JTextField txtFecha;
