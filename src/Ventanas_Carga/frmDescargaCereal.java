@@ -132,21 +132,21 @@ gestorDescargaCereal gestorD = new gestorDescargaCereal();
 
         jPanel3.setLayout(null);
 
-        jLabel9.setFont(new java.awt.Font("Arial", 1, 12));
+        jLabel9.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel9.setText("Fecha");
         jPanel3.add(jLabel9);
         jLabel9.setBounds(10, 13, 50, 15);
         jPanel3.add(txtFecha);
         txtFecha.setBounds(50, 10, 102, 20);
 
-        jLabel10.setFont(new java.awt.Font("Arial", 1, 12));
+        jLabel10.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel10.setText("Hora");
         jPanel3.add(jLabel10);
         jLabel10.setBounds(180, 10, 40, 20);
         jPanel3.add(txtHora);
         txtHora.setBounds(210, 10, 70, 20);
 
-        jLabel11.setFont(new java.awt.Font("Arial", 1, 12));
+        jLabel11.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel11.setText("Usuario");
         jPanel3.add(jLabel11);
         jLabel11.setBounds(460, 10, 50, 15);
@@ -155,7 +155,7 @@ gestorDescargaCereal gestorD = new gestorDescargaCereal();
         jPanel3.add(jLabel12);
         jLabel12.setBounds(510, 0, 30, 30);
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Establecimiento", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Establecimiento", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14))); // NOI18N
         jPanel1.setLayout(null);
 
         tblEstablecimiento.setModel(new javax.swing.table.DefaultTableModel(
@@ -181,7 +181,7 @@ gestorDescargaCereal gestorD = new gestorDescargaCereal();
         jPanel1.add(jScrollPane1);
         jScrollPane1.setBounds(40, 30, 520, 160);
 
-        btnAgregar.setFont(new java.awt.Font("Arial", 0, 11));
+        btnAgregar.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         btnAgregar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Agregar.png"))); // NOI18N
         btnAgregar.setText("Agregar");
         btnAgregar.addActionListener(new java.awt.event.ActionListener() {
@@ -194,7 +194,7 @@ gestorDescargaCereal gestorD = new gestorDescargaCereal();
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 120, Short.MAX_VALUE)
+            .addGap(0, 124, Short.MAX_VALUE)
             .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel4Layout.createSequentialGroup()
                     .addContainerGap()
@@ -203,7 +203,7 @@ gestorDescargaCereal gestorD = new gestorDescargaCereal();
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 50, Short.MAX_VALUE)
+            .addGap(0, 52, Short.MAX_VALUE)
             .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel4Layout.createSequentialGroup()
                     .addContainerGap()
@@ -234,7 +234,7 @@ gestorDescargaCereal gestorD = new gestorDescargaCereal();
 
         jPanel2.setLayout(null);
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel2.setText("Tipo Cereal");
         jPanel2.add(jLabel2);
         jLabel2.setBounds(30, 40, 100, 20);
@@ -242,7 +242,7 @@ gestorDescargaCereal gestorD = new gestorDescargaCereal();
         jPanel2.add(cmbTipoCereal);
         cmbTipoCereal.setBounds(110, 40, 110, 20);
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel3.setText("Temporada");
         jPanel2.add(jLabel3);
         jLabel3.setBounds(330, 40, 100, 20);
@@ -250,7 +250,7 @@ gestorDescargaCereal gestorD = new gestorDescargaCereal();
         jPanel2.add(cmbTemporada);
         cmbTemporada.setBounds(410, 40, 130, 20);
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel4.setText("Toneladas");
         jPanel2.add(jLabel4);
         jLabel4.setBounds(40, 70, 80, 20);
@@ -263,7 +263,7 @@ gestorDescargaCereal gestorD = new gestorDescargaCereal();
         jPanel2.add(txtHumedad);
         txtHumedad.setBounds(410, 70, 90, 20);
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel5.setText("%Humedad");
         jPanel2.add(jLabel5);
         jLabel5.setBounds(330, 70, 90, 20);
@@ -276,7 +276,7 @@ gestorDescargaCereal gestorD = new gestorDescargaCereal();
         jPanel2.add(txtToneladas);
         txtToneladas.setBounds(110, 70, 110, 20);
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel6.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel6.setText("Nivel de Impurezas");
         jPanel2.add(jLabel6);
         jLabel6.setBounds(0, 100, 120, 20);
@@ -284,7 +284,7 @@ gestorDescargaCereal gestorD = new gestorDescargaCereal();
         jPanel2.add(cmbImpurezas);
         cmbImpurezas.setBounds(110, 100, 110, 20);
 
-        jLabel7.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel7.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel7.setText("Silo N°");
         jPanel2.add(jLabel7);
         jLabel7.setBounds(360, 100, 60, 20);
@@ -292,7 +292,7 @@ gestorDescargaCereal gestorD = new gestorDescargaCereal();
         jPanel2.add(cmbSilo);
         cmbSilo.setBounds(410, 100, 90, 20);
 
-        jLabel8.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel8.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel8.setText("Transportista");
         jPanel2.add(jLabel8);
         jLabel8.setBounds(24, 130, 100, 20);
@@ -319,26 +319,25 @@ gestorDescargaCereal gestorD = new gestorDescargaCereal();
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 589, Short.MAX_VALUE)
-                .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
-                .addGap(199, 199, 199)
-                .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(196, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(37, Short.MAX_VALUE)
-                .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 517, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(55, 55, 55))
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 589, Short.MAX_VALUE)
-                .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 589, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 589, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(199, 199, 199)
+                        .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 186, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 589, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 589, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jSeparator1)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -356,7 +355,7 @@ gestorDescargaCereal gestorD = new gestorDescargaCereal();
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(19, Short.MAX_VALUE))
         );
 
         pack();
