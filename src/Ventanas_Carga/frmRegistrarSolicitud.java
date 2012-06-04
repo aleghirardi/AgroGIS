@@ -148,37 +148,37 @@ gestorRegistrarSolicitud gRegistro = new gestorRegistrarSolicitud();
 
         jPanel2.setLayout(null);
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel6.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel6.setText("Establecimiento");
         jPanel2.add(jLabel6);
         jLabel6.setBounds(31, 11, 110, 18);
 
-        jLabel7.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel7.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel7.setText("Productor");
         jPanel2.add(jLabel7);
         jLabel7.setBounds(350, 10, 70, 18);
 
-        jLabel8.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel8.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel8.setText("Silo");
         jPanel2.add(jLabel8);
         jLabel8.setBounds(380, 40, 40, 20);
 
-        jLabel9.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel9.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel9.setText("Cereal");
         jPanel2.add(jLabel9);
         jLabel9.setBounds(83, 44, 60, 15);
 
-        jLabel10.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel10.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel10.setText("Toneladas a Extraer");
         jPanel2.add(jLabel10);
         jLabel10.setBounds(10, 70, 130, 20);
 
-        jLabel11.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel11.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel11.setText("Tipo Operación");
         jPanel2.add(jLabel11);
         jLabel11.setBounds(320, 70, 100, 20);
 
-        jLabel12.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel12.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel12.setText("Destino");
         jPanel2.add(jLabel12);
         jLabel12.setBounds(77, 101, 60, 20);
@@ -209,7 +209,7 @@ gestorRegistrarSolicitud gRegistro = new gestorRegistrarSolicitud();
         jPanel2.add(cmbDestino);
         cmbDestino.setBounds(130, 100, 170, 20);
 
-        jLabel13.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel13.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel13.setText("Nombre");
         jPanel2.add(jLabel13);
         jLabel13.setBounds(360, 100, 60, 20);
@@ -219,17 +219,17 @@ gestorRegistrarSolicitud gRegistro = new gestorRegistrarSolicitud();
         jPanel2.add(txtNombreDestino);
         txtNombreDestino.setBounds(410, 100, 180, 20);
 
-        jLabel14.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel14.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel14.setText("Estado de la Solicitud");
         jPanel2.add(jLabel14);
         jLabel14.setBounds(0, 130, 130, 20);
 
-        jLabel15.setFont(new java.awt.Font("Arial", 1, 14));
+        jLabel15.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel15.setText("PENDIENTE");
         jPanel2.add(jLabel15);
         jLabel15.setBounds(130, 130, 80, 20);
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel1.setText("Solicitud N°");
         jPanel2.add(jLabel1);
         jLabel1.setBounds(340, 130, 90, 20);
@@ -238,21 +238,21 @@ gestorRegistrarSolicitud gRegistro = new gestorRegistrarSolicitud();
 
         jPanel3.setLayout(null);
 
-        jLabel16.setFont(new java.awt.Font("Arial", 1, 12));
+        jLabel16.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel16.setText("Fecha");
         jPanel3.add(jLabel16);
         jLabel16.setBounds(10, 13, 50, 15);
         jPanel3.add(txtFecha);
         txtFecha.setBounds(50, 10, 102, 20);
 
-        jLabel17.setFont(new java.awt.Font("Arial", 1, 12));
+        jLabel17.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel17.setText("Hora");
         jPanel3.add(jLabel17);
         jLabel17.setBounds(200, 10, 40, 20);
         jPanel3.add(txtHora);
         txtHora.setBounds(230, 10, 70, 20);
 
-        jLabel18.setFont(new java.awt.Font("Arial", 1, 12));
+        jLabel18.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel18.setText("Usuario");
         jPanel3.add(jLabel18);
         jLabel18.setBounds(520, 10, 50, 15);
@@ -263,7 +263,7 @@ gestorRegistrarSolicitud gRegistro = new gestorRegistrarSolicitud();
 
         jPanel8.setLayout(null);
 
-        jLabel26.setFont(new java.awt.Font("Arial", 1, 12));
+        jLabel26.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel26.setText("Buscar Establecimiento");
         jPanel8.add(jLabel26);
         jLabel26.setBounds(0, 10, 180, 30);
@@ -352,7 +352,7 @@ gestorRegistrarSolicitud gRegistro = new gestorRegistrarSolicitud();
         tblEstablecimiento.getTableHeader().setReorderingAllowed(false);
         jScrollPane1.setViewportView(tblEstablecimiento);
 
-        btnAgregar.setFont(new java.awt.Font("Arial", 0, 11));
+        btnAgregar.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         btnAgregar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Agregar.png"))); // NOI18N
         btnAgregar.setText("Agregar");
         btnAgregar.addActionListener(new java.awt.event.ActionListener() {
@@ -365,18 +365,19 @@ gestorRegistrarSolicitud gRegistro = new gestorRegistrarSolicitud();
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(271, 271, 271)
-                .addComponent(btnAgregar)
-                .addContainerGap(278, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(229, Short.MAX_VALUE)
                 .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, 273, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(148, 148, 148))
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(56, 56, 56)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 531, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(63, Short.MAX_VALUE))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(271, 271, 271)
+                        .addComponent(btnAgregar))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(56, 56, 56)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 531, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -389,7 +390,7 @@ gestorRegistrarSolicitud gRegistro = new gestorRegistrarSolicitud();
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        btnGuardar.setFont(new java.awt.Font("Arial", 0, 11));
+        btnGuardar.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Guardar.png"))); // NOI18N
         btnGuardar.setText("Guardar");
         btnGuardar.addActionListener(new java.awt.event.ActionListener() {
@@ -398,7 +399,7 @@ gestorRegistrarSolicitud gRegistro = new gestorRegistrarSolicitud();
             }
         });
 
-        btnCancelar.setFont(new java.awt.Font("Arial", 0, 11));
+        btnCancelar.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         btnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Cancelar.png"))); // NOI18N
         btnCancelar.setText("Cancelar");
         btnCancelar.addActionListener(new java.awt.event.ActionListener() {
@@ -424,7 +425,7 @@ gestorRegistrarSolicitud gRegistro = new gestorRegistrarSolicitud();
                     .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(30, 30, 30)
-                        .addComponent(jSeparator1, javax.swing.GroupLayout.DEFAULT_SIZE, 620, Short.MAX_VALUE))
+                        .addComponent(jSeparator1))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 622, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -445,7 +446,7 @@ gestorRegistrarSolicitud gRegistro = new gestorRegistrarSolicitud();
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(51, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
