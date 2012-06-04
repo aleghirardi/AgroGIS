@@ -85,29 +85,29 @@ public class frmRegistrarResultadosLab extends javax.swing.JInternalFrame {
         jLabel48 = new javax.swing.JLabel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel2 = new javax.swing.JPanel();
-        btnAceptarMuestra = new javax.swing.JButton();
+        btnAceptarViaje = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
-        jCheckBox1 = new javax.swing.JCheckBox();
-        jCheckBox2 = new javax.swing.JCheckBox();
-        jCheckBox3 = new javax.swing.JCheckBox();
-        jCheckBox4 = new javax.swing.JCheckBox();
-        jCheckBox5 = new javax.swing.JCheckBox();
-        jCheckBox6 = new javax.swing.JCheckBox();
+        ckFecha = new javax.swing.JCheckBox();
+        ckNumViaje = new javax.swing.JCheckBox();
+        ckProductor = new javax.swing.JCheckBox();
+        ckTransportista = new javax.swing.JCheckBox();
+        ckEstablecimiento = new javax.swing.JCheckBox();
+        ckTodos = new javax.swing.JCheckBox();
         jPanel9 = new javax.swing.JPanel();
-        jComboBox1 = new javax.swing.JComboBox();
+        cmbEstablecimiento = new javax.swing.JComboBox();
         jPanel10 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        calendarioHSolicitud1 = new datechooser.beans.DateChooserCombo();
-        calendarioDSolicitud1 = new datechooser.beans.DateChooserCombo();
+        calendarioHViaje = new datechooser.beans.DateChooserCombo();
+        calendarioDViaje = new datechooser.beans.DateChooserCombo();
         jPanel12 = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
-        jTextField6 = new javax.swing.JTextField();
+        txtNumViaje = new javax.swing.JTextField();
         jPanel13 = new javax.swing.JPanel();
-        jComboBox2 = new javax.swing.JComboBox();
+        cmbProductor = new javax.swing.JComboBox();
         jPanel14 = new javax.swing.JPanel();
         jComboBox3 = new javax.swing.JComboBox();
-        btnBuscarSolicitud = new javax.swing.JButton();
+        btnBuscarViaje = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
@@ -124,27 +124,27 @@ public class frmRegistrarResultadosLab extends javax.swing.JInternalFrame {
         jLabel16 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
-        jTextField4 = new javax.swing.JTextField();
-        jTextField7 = new javax.swing.JTextField();
-        jTextField8 = new javax.swing.JTextField();
-        jTextField9 = new javax.swing.JTextField();
-        jTextField10 = new javax.swing.JTextField();
-        jTextField11 = new javax.swing.JTextField();
-        jTextField12 = new javax.swing.JTextField();
-        jTextField13 = new javax.swing.JTextField();
+        txtViaje = new javax.swing.JTextField();
+        txtFechaViaje = new javax.swing.JTextField();
+        txtProductor = new javax.swing.JTextField();
+        txtDomicilio = new javax.swing.JTextField();
+        txtEstablecimiento = new javax.swing.JTextField();
+        txtHas = new javax.swing.JTextField();
+        txNumLote = new javax.swing.JTextField();
+        txtTransportista = new javax.swing.JTextField();
+        txtVehiculo = new javax.swing.JTextField();
+        txtNumMuestra = new javax.swing.JTextField();
+        txtTempCosecha = new javax.swing.JTextField();
         jLabel42 = new javax.swing.JLabel();
-        jTextField14 = new javax.swing.JTextField();
-        jTextField15 = new javax.swing.JTextField();
-        jTextField16 = new javax.swing.JTextField();
-        jTextField17 = new javax.swing.JTextField();
-        jTextField18 = new javax.swing.JTextField();
+        txtCereal = new javax.swing.JTextField();
+        txtToneladas = new javax.swing.JTextField();
+        txtImpurezas = new javax.swing.JTextField();
+        txtPesoHect = new javax.swing.JTextField();
+        txtDominio = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
-        jTextField19 = new javax.swing.JTextField();
+        txtHumedad = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        tblViaje = new javax.swing.JTable();
         jPanel3 = new javax.swing.JPanel();
         jPanel7 = new javax.swing.JPanel();
         jLabel26 = new javax.swing.JLabel();
@@ -209,46 +209,46 @@ public class frmRegistrarResultadosLab extends javax.swing.JInternalFrame {
 
         jLabel48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/UsuarioLogueado.png"))); // NOI18N
 
-        btnAceptarMuestra.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Aceptar.png"))); // NOI18N
+        btnAceptarViaje.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Aceptar.png"))); // NOI18N
 
         jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Buscar Viajes Finalizados por", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14))); // NOI18N
         jPanel5.setLayout(null);
 
-        jCheckBox1.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        jCheckBox1.setText("Fecha");
-        jPanel5.add(jCheckBox1);
-        jCheckBox1.setBounds(60, 20, 60, 23);
+        ckFecha.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        ckFecha.setText("Fecha");
+        jPanel5.add(ckFecha);
+        ckFecha.setBounds(60, 20, 60, 23);
 
-        jCheckBox2.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        jCheckBox2.setText("Numero Viaje");
-        jPanel5.add(jCheckBox2);
-        jCheckBox2.setBounds(180, 20, 110, 23);
+        ckNumViaje.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        ckNumViaje.setText("Numero Viaje");
+        jPanel5.add(ckNumViaje);
+        ckNumViaje.setBounds(180, 20, 110, 23);
 
-        jCheckBox3.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        jCheckBox3.setText("Productor");
-        jPanel5.add(jCheckBox3);
-        jCheckBox3.setBounds(330, 20, 90, 23);
+        ckProductor.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        ckProductor.setText("Productor");
+        jPanel5.add(ckProductor);
+        ckProductor.setBounds(330, 20, 90, 23);
 
-        jCheckBox4.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        jCheckBox4.setText("Transportista");
-        jPanel5.add(jCheckBox4);
-        jCheckBox4.setBounds(460, 20, 120, 23);
+        ckTransportista.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        ckTransportista.setText("Transportista");
+        jPanel5.add(ckTransportista);
+        ckTransportista.setBounds(460, 20, 120, 23);
 
-        jCheckBox5.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        jCheckBox5.setText("Establecimiento");
-        jPanel5.add(jCheckBox5);
-        jCheckBox5.setBounds(600, 20, 120, 23);
+        ckEstablecimiento.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        ckEstablecimiento.setText("Establecimiento");
+        jPanel5.add(ckEstablecimiento);
+        ckEstablecimiento.setBounds(600, 20, 120, 23);
 
-        jCheckBox6.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        jCheckBox6.setText("Todos");
-        jPanel5.add(jCheckBox6);
-        jCheckBox6.setBounds(740, 20, 81, 23);
+        ckTodos.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        ckTodos.setText("Todos");
+        jPanel5.add(ckTodos);
+        ckTodos.setBounds(740, 20, 81, 23);
 
         jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Establecimiento", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 12))); // NOI18N
         jPanel9.setLayout(null);
 
-        jPanel9.add(jComboBox1);
-        jComboBox1.setBounds(20, 40, 200, 20);
+        jPanel9.add(cmbEstablecimiento);
+        cmbEstablecimiento.setBounds(20, 40, 200, 20);
 
         jPanel5.add(jPanel9);
         jPanel9.setBounds(570, 50, 240, 90);
@@ -265,10 +265,10 @@ public class frmRegistrarResultadosLab extends javax.swing.JInternalFrame {
         jLabel10.setText("Hasta");
         jPanel10.add(jLabel10);
         jLabel10.setBounds(10, 50, 60, 20);
-        jPanel10.add(calendarioHSolicitud1);
-        calendarioHSolicitud1.setBounds(50, 50, 90, 20);
-        jPanel10.add(calendarioDSolicitud1);
-        calendarioDSolicitud1.setBounds(50, 20, 90, 20);
+        jPanel10.add(calendarioHViaje);
+        calendarioHViaje.setBounds(50, 50, 90, 20);
+        jPanel10.add(calendarioDViaje);
+        calendarioDViaje.setBounds(50, 20, 90, 20);
 
         jPanel5.add(jPanel10);
         jPanel10.setBounds(10, 50, 160, 90);
@@ -280,8 +280,8 @@ public class frmRegistrarResultadosLab extends javax.swing.JInternalFrame {
         jLabel11.setText("Nº");
         jPanel12.add(jLabel11);
         jLabel11.setBounds(20, 40, 50, 20);
-        jPanel12.add(jTextField6);
-        jTextField6.setBounds(40, 40, 100, 20);
+        jPanel12.add(txtNumViaje);
+        txtNumViaje.setBounds(40, 40, 100, 20);
 
         jPanel5.add(jPanel12);
         jPanel12.setBounds(170, 50, 160, 90);
@@ -289,8 +289,8 @@ public class frmRegistrarResultadosLab extends javax.swing.JInternalFrame {
         jPanel13.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Productor", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 12))); // NOI18N
         jPanel13.setLayout(null);
 
-        jPanel13.add(jComboBox2);
-        jComboBox2.setBounds(20, 40, 200, 20);
+        jPanel13.add(cmbProductor);
+        cmbProductor.setBounds(20, 40, 200, 20);
 
         jPanel5.add(jPanel13);
         jPanel13.setBounds(330, 50, 240, 90);
@@ -304,11 +304,11 @@ public class frmRegistrarResultadosLab extends javax.swing.JInternalFrame {
         jPanel5.add(jPanel14);
         jPanel14.setBounds(810, 50, 240, 90);
 
-        btnBuscarSolicitud.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        btnBuscarSolicitud.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/lupa.png"))); // NOI18N
-        btnBuscarSolicitud.setText("Buscar");
-        jPanel5.add(btnBuscarSolicitud);
-        btnBuscarSolicitud.setBounds(500, 150, 100, 30);
+        btnBuscarViaje.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        btnBuscarViaje.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/lupa.png"))); // NOI18N
+        btnBuscarViaje.setText("Buscar");
+        jPanel5.add(btnBuscarViaje);
+        btnBuscarViaje.setBounds(500, 150, 100, 30);
 
         jPanel4.setLayout(null);
 
@@ -386,52 +386,52 @@ public class frmRegistrarResultadosLab extends javax.swing.JInternalFrame {
         jLabel14.setText("Transportista");
         jPanel4.add(jLabel14);
         jLabel14.setBounds(30, 70, 110, 20);
-        jPanel4.add(jTextField1);
-        jTextField1.setBounds(60, 10, 80, 20);
-        jPanel4.add(jTextField2);
-        jTextField2.setBounds(210, 10, 90, 20);
-        jPanel4.add(jTextField3);
-        jTextField3.setBounds(420, 10, 180, 20);
-        jPanel4.add(jTextField4);
-        jTextField4.setBounds(700, 10, 220, 20);
-        jPanel4.add(jTextField7);
-        jTextField7.setBounds(110, 40, 200, 20);
-        jPanel4.add(jTextField8);
-        jTextField8.setBounds(610, 40, 90, 20);
-        jPanel4.add(jTextField9);
-        jTextField9.setBounds(420, 40, 90, 20);
-        jPanel4.add(jTextField10);
-        jTextField10.setBounds(110, 70, 200, 20);
-        jPanel4.add(jTextField11);
-        jTextField11.setBounds(420, 70, 200, 20);
-        jPanel4.add(jTextField12);
-        jTextField12.setBounds(110, 100, 90, 20);
-        jPanel4.add(jTextField13);
-        jTextField13.setBounds(420, 100, 90, 20);
+        jPanel4.add(txtViaje);
+        txtViaje.setBounds(60, 10, 80, 20);
+        jPanel4.add(txtFechaViaje);
+        txtFechaViaje.setBounds(210, 10, 90, 20);
+        jPanel4.add(txtProductor);
+        txtProductor.setBounds(420, 10, 180, 20);
+        jPanel4.add(txtDomicilio);
+        txtDomicilio.setBounds(700, 10, 220, 20);
+        jPanel4.add(txtEstablecimiento);
+        txtEstablecimiento.setBounds(110, 40, 200, 20);
+        jPanel4.add(txtHas);
+        txtHas.setBounds(610, 40, 90, 20);
+        jPanel4.add(txNumLote);
+        txNumLote.setBounds(420, 40, 90, 20);
+        jPanel4.add(txtTransportista);
+        txtTransportista.setBounds(110, 70, 200, 20);
+        jPanel4.add(txtVehiculo);
+        txtVehiculo.setBounds(420, 70, 200, 20);
+        jPanel4.add(txtNumMuestra);
+        txtNumMuestra.setBounds(110, 100, 90, 20);
+        jPanel4.add(txtTempCosecha);
+        txtTempCosecha.setBounds(420, 100, 90, 20);
 
         jLabel42.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel42.setText("Cereal");
         jPanel4.add(jLabel42);
         jLabel42.setBounds(750, 40, 80, 20);
-        jPanel4.add(jTextField14);
-        jTextField14.setBounds(790, 40, 100, 20);
-        jPanel4.add(jTextField15);
-        jTextField15.setBounds(720, 100, 90, 20);
-        jPanel4.add(jTextField16);
-        jTextField16.setBounds(720, 130, 90, 20);
-        jPanel4.add(jTextField17);
-        jTextField17.setBounds(110, 130, 90, 20);
-        jPanel4.add(jTextField18);
-        jTextField18.setBounds(720, 70, 90, 20);
+        jPanel4.add(txtCereal);
+        txtCereal.setBounds(790, 40, 100, 20);
+        jPanel4.add(txtToneladas);
+        txtToneladas.setBounds(720, 100, 90, 20);
+        jPanel4.add(txtImpurezas);
+        txtImpurezas.setBounds(720, 130, 90, 20);
+        jPanel4.add(txtPesoHect);
+        txtPesoHect.setBounds(110, 130, 90, 20);
+        jPanel4.add(txtDominio);
+        txtDominio.setBounds(720, 70, 90, 20);
 
         jLabel12.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel12.setText("Dominio");
         jPanel4.add(jLabel12);
         jLabel12.setBounds(670, 70, 70, 20);
-        jPanel4.add(jTextField19);
-        jTextField19.setBounds(420, 130, 90, 20);
+        jPanel4.add(txtHumedad);
+        txtHumedad.setBounds(420, 130, 90, 20);
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        tblViaje.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
@@ -439,7 +439,7 @@ public class frmRegistrarResultadosLab extends javax.swing.JInternalFrame {
                 "Fecha", "Nº Viaje", "Productor", "Establecimiento", "Transportista"
             }
         ));
-        jScrollPane1.setViewportView(jTable1);
+        jScrollPane1.setViewportView(tblViaje);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -461,7 +461,7 @@ public class frmRegistrarResultadosLab extends javax.swing.JInternalFrame {
                                 .addGap(0, 0, Short.MAX_VALUE)
                                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 997, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
-                        .addComponent(btnAceptarMuestra, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnAceptarViaje, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(15, 15, 15))))
         );
         jPanel2Layout.setVerticalGroup(
@@ -477,7 +477,7 @@ public class frmRegistrarResultadosLab extends javax.swing.JInternalFrame {
                         .addGap(356, 356, 356))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(48, 48, 48)
-                        .addComponent(btnAceptarMuestra, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnAceptarViaje, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap())))
         );
 
@@ -788,7 +788,7 @@ public class frmRegistrarResultadosLab extends javax.swing.JInternalFrame {
                     .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnNuevo, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(15, Short.MAX_VALUE))
         );
 
         pack();
@@ -834,25 +834,25 @@ public class frmRegistrarResultadosLab extends javax.swing.JInternalFrame {
     private javax.swing.JRadioButton botonMaiz;
     private javax.swing.JRadioButton botonSoja;
     private javax.swing.JRadioButton botonTrigo;
-    private javax.swing.JButton btnAceptarMuestra;
-    private javax.swing.JButton btnBuscarSolicitud;
+    private javax.swing.JButton btnAceptarViaje;
+    private javax.swing.JButton btnBuscarViaje;
     private javax.swing.JButton btnCancelar;
     private javax.swing.JButton btnGuardar;
     private javax.swing.JButton btnNuevo;
-    private datechooser.beans.DateChooserCombo calendarioDSolicitud1;
+    private datechooser.beans.DateChooserCombo calendarioDViaje;
     private datechooser.beans.DateChooserCombo calendarioEnvio;
-    private datechooser.beans.DateChooserCombo calendarioHSolicitud1;
+    private datechooser.beans.DateChooserCombo calendarioHViaje;
     private datechooser.beans.DateChooserCombo calendarioRecep;
+    private javax.swing.JCheckBox ckEstablecimiento;
+    private javax.swing.JCheckBox ckFecha;
+    private javax.swing.JCheckBox ckNumViaje;
+    private javax.swing.JCheckBox ckProductor;
+    private javax.swing.JCheckBox ckTodos;
+    private javax.swing.JCheckBox ckTransportista;
     private javax.swing.JComboBox cmbEspecialidad;
+    private javax.swing.JComboBox cmbEstablecimiento;
     private javax.swing.JComboBox cmbLaboratorio;
-    private javax.swing.JCheckBox jCheckBox1;
-    private javax.swing.JCheckBox jCheckBox2;
-    private javax.swing.JCheckBox jCheckBox3;
-    private javax.swing.JCheckBox jCheckBox4;
-    private javax.swing.JCheckBox jCheckBox5;
-    private javax.swing.JCheckBox jCheckBox6;
-    private javax.swing.JComboBox jComboBox1;
-    private javax.swing.JComboBox jComboBox2;
+    private javax.swing.JComboBox cmbProductor;
     private javax.swing.JComboBox jComboBox3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -911,41 +911,41 @@ public class frmRegistrarResultadosLab extends javax.swing.JInternalFrame {
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTable jTable1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField10;
-    private javax.swing.JTextField jTextField11;
-    private javax.swing.JTextField jTextField12;
-    private javax.swing.JTextField jTextField13;
-    private javax.swing.JTextField jTextField14;
-    private javax.swing.JTextField jTextField15;
-    private javax.swing.JTextField jTextField16;
-    private javax.swing.JTextField jTextField17;
-    private javax.swing.JTextField jTextField18;
-    private javax.swing.JTextField jTextField19;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
-    private javax.swing.JTextField jTextField6;
-    private javax.swing.JTextField jTextField7;
-    private javax.swing.JTextField jTextField8;
-    private javax.swing.JTextField jTextField9;
+    private javax.swing.JTable tblViaje;
+    private javax.swing.JTextField txNumLote;
     private javax.swing.JTextField txtAlmidonNormal;
     private javax.swing.JTextField txtAlmidonObtenido;
+    private javax.swing.JTextField txtCereal;
     private javax.swing.JTextField txtColorNormal;
     private javax.swing.JTextField txtColorObtenido;
+    private javax.swing.JTextField txtDomicilio;
     private javax.swing.JTextField txtDomicilioLab;
+    private javax.swing.JTextField txtDominio;
     private javax.swing.JTextField txtDurezaNormal;
     private javax.swing.JTextField txtDurezaObtenida;
+    private javax.swing.JTextField txtEstablecimiento;
     private javax.swing.JTextField txtFecha;
+    private javax.swing.JTextField txtFechaViaje;
     private javax.swing.JTextField txtGlutenNormal;
     private javax.swing.JTextField txtGlutenObtenido;
+    private javax.swing.JTextField txtHas;
     private javax.swing.JTextField txtHora;
+    private javax.swing.JTextField txtHumedad;
+    private javax.swing.JTextField txtImpurezas;
     private javax.swing.JTextField txtLocalidadLab;
     private javax.swing.JTextField txtMuestraLab;
+    private javax.swing.JTextField txtNumMuestra;
+    private javax.swing.JTextField txtNumViaje;
+    private javax.swing.JTextField txtPesoHect;
+    private javax.swing.JTextField txtProductor;
     private javax.swing.JTextField txtProtNormal;
     private javax.swing.JTextField txtProtObtenidas;
     private javax.swing.JTextField txtProvinciaLab;
     private javax.swing.JTextField txtTelefonoLab;
+    private javax.swing.JTextField txtTempCosecha;
+    private javax.swing.JTextField txtToneladas;
+    private javax.swing.JTextField txtTransportista;
+    private javax.swing.JTextField txtVehiculo;
+    private javax.swing.JTextField txtViaje;
     // End of variables declaration//GEN-END:variables
 }
